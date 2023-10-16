@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <section>
+        <div id="resultado">
+            <p id="res">0</p>
+        </div>
+        <div id="digitos">
+            <input type="button" value="C" onclick="apagar()">
+            <input type="button" value="&larr;" onclick="apagar1()"><br>
+            <input type="button" value="7" onclick="num7()">   
+            <input type="button" value="8" onclick="num8()">    
+            <input type="button" value="9" onclick="num9()">  
+            <input type="button" value="+" onclick="mais()"> <br>
+            <input type="button" value="6" onclick="num6()">
+            <input type="button" value="5" onclick="num5()">
+            <input type="button" value="4" onclick="num4()">
+            <input type="button" value="-" onclick="menos()"> <br>
+            <input type="button" value="3" onclick="num3()">
+            <input type="button" value="2" onclick="num2()">
+            <input type="button" value="1" onclick="num1()">
+            <input type="button" value="x" onclick="vezes()"> <br>
+            <input type="button" value="0" onclick="zero()">
+            <input type="button" value="." onclick="ponto()">
+            <input type="button" value="/" onclick="dividir()">
+            <input type="button" value="=" onclick="igual()">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
